@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'league spartan', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    margin: 100px 0 70px;
+}
+
+.row {
+    margin: 30px 20px;
+}
+
+.top-row {
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;
+    color: hsl(300, 43%, 22%);
+} 
+
+#intro {
+    padding: 30px 30px;
+    line-height: 1.3;
+    /* padding-right: 150px; */
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.title-info {
+    font-size: 18px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: hsl(300, 24%, 96%);
+    height: 60px;
+    width: 500px;
+    margin: 15px auto;
+    padding: 10px 24px;
+    font-size: 20px;
+}
+
+.stars {
+    padding-left: 30px;
+}
+
+.text {
+    padding-top: 15px;
+}
+
+.bottom-row {
+    /* display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; */
+    border-radius: 12px; 
+    background-color: hsl(300, 43%, 22%);
+}
+
+.review {
+    padding: 30px;
+}
+
+.profile-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.profile-name {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
+
+.profile-subheading {
+    color: hsl(333, 80%, 67%);
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.comment {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
