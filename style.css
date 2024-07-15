@@ -66,11 +66,22 @@ h1 {
     align-items: center;
     box-sizing: border-box; */
     border-radius: 12px; 
-    background-color: hsl(300, 43%, 22%);
+   
 }
 
 .review {
     padding: 30px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 7px;
+}
+.bottom-row :nth-child(1) {
+    margin-top: 0;
+}
+.bottom-row :nth-child(2) {
+    margin-top: 20px;
+}
+.bottom-row :nth-child(3) {
+    margin-top: 40px;
 }
 
 .profile-img {
