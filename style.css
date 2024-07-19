@@ -1,6 +1,10 @@
 body {
     font-family: 'league spartan', sans-serif;
     padding: 15px;
+    background-image: url("bg-pattern-top-desktop.svg"), url("bg-pattern-bottom-desktop.svg"); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+
 }
 
 .container {
@@ -50,22 +54,11 @@ h1 {
 
 .box-1, .box-2, .box-3 {
     background-color: hsl(300, 43%, 22%);
-}
-
-.box-1 {
-    padding: 35px;
-}
-
-.box-2 {
-    padding:35px; 
-}
-
-.box-3 {
     padding: 35px;
 }
 
 .reviews {
-    margin-right: 20px;
+    margin-right: 30px;
     font-size: 20px;
 }
 
