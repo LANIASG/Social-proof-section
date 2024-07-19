@@ -12,10 +12,12 @@ h1 {
     font-size: 55px;
     margin-bottom: 15px; 
     line-height: 1;
+    color: hsl(300, 43%, 22%);
 }
 
 .info {
-    font-size: 20px; 
+    font-size: 20px;
+    color: hsl(300, 43%, 22%); 
 }
 
 .ratings {
@@ -43,10 +45,27 @@ h1 {
 
 .text {
     font-size: 20px;
+    color: hsl(300, 43%, 22%);
+}
+
+.box-1, .box-2, .box-3 {
+    background-color: hsl(300, 43%, 22%);
+}
+
+.box-1 {
+    padding: 35px;
+}
+
+.box-2 {
+    padding:35px; 
+}
+
+.box-3 {
+    padding: 35px;
 }
 
 .reviews {
-    margin-right: 18px;
+    margin-right: 20px;
     font-size: 20px;
 }
 
@@ -62,4 +81,13 @@ img {
 .profile-name {
     padding-top: 0;
     margin: 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.profile-subheading {
+    color: hsl(333, 80%, 67%);
+}
+
+.comment {
+    color: hsl(300, 24%, 96%);
 }
